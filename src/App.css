@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero_image {
+  background-image: url(media/union.png)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (max-width: 920px) {
+  .flexing {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+}
+.one {
+  width: 130px;
 }
 
-.App-link {
-  color: #61dafb;
+.two {
+  width: 160px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.twon {
+  width: 180px;
+}
+
+.twop {
+  width: 170px;
+}
+
+@media screen and (min-width: 724px) {
+  .up-image {
+    width: 644px;
   }
 }
