@@ -34,9 +34,9 @@ export const Nav = () => {
                 <li>
                   <a href="#Services">Services</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#Contact">Contacts</a>
-                </li>
+                </li> */}
               </ul>
             </li>
             {/*             <li>
